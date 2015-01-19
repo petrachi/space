@@ -1,0 +1,37 @@
+[data-action='home#index']{
+
+  .grid{
+    align-items: stretch;
+  }
+
+  .section{
+    height: 100%;
+    background-size: cover;
+    background-position: 50% 0;
+
+    &.blog{
+      background-image: url("http://blog.space.wf/assets/identity.jpg");
+    }
+
+    a,
+    a:hover{
+      background-color: transparent;
+    }
+  }
+
+  h2{
+    display: table;
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+    font-size: 3em;
+
+    a{
+      display: table-cell;
+      vertical-align: middle;
+
+      padding: 0;
+    }
+  }
+}
